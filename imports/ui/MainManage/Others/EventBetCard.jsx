@@ -201,13 +201,13 @@ class EventBetCard extends Component {
                             <span className="badge badge-primary myButtonGroup">{Team2}</span>
                         </div>
 
-                        <div className="btn-group myButtonGroup" role="group" aria-label="Basic example" style={{ display: isOver }}>
+                        <div className="btn-group myButtonGroup" role="group" aria-label="Match is over" style={{ display: isOver }}>
                             <button type="button" className="btn btn-primary myButtonOnGroup" data-toggle="modal" data-target={"#Add" + Name + "betCardBetModal"}>{"" + this.getFee(Prob1)}</button>
                             <button type="button" className="btn btn-secondary myButtonOnGroup" data-toggle="modal" data-target={"#Add" + Name + "betCardBetModal"}>{"" + this.getFee(Tie)}</button>
                             <button type="button" className="btn btn-primary myButtonOnGroup" data-toggle="modal" data-target={"#Add" + Name + "betCardBetModal"}>{"" + this.getFee(Prob2)}</button>
                         </div>
 
-                        <div className="btn-group myButtonGroup" role="group" aria-label="Basic example" style={{ display: showResult }}>
+                        <div className="btn-group myButtonGroup" role="group" aria-label="Results of game" style={{ display: showResult }}>
                             <span className={"badge myButtonGroup badge-" + team1RI}>{eInfo.Team1R}</span>
                             <span className={"badge myButtonGroup badge-" + team2RI}>{eInfo.Team2R}</span>
                         </div>
