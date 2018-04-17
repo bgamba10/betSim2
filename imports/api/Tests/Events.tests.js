@@ -10,6 +10,8 @@ import faker from "faker";
 
 import { Events } from "../Events.js";
 
+
+//puede comentarse el cógido, pero están todos los tests
 if (Meteor.isServer) {
     describe("Events", () => {
         describe('Events.addEvent', () => {
